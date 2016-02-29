@@ -98,8 +98,8 @@
 <script language=javascript>
 		var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzA5MjM1MDg5OQ==&mid=205575191&idx=1&sn=9fe704a1b81fd873a123f95ed2cc621a#rd';
 		window.shareData = {
-		        "imgUrl": "http://game2.id87.com/games/jssjm/icon.png",
-		        "timeLineLink": "http://game2.id87.com/games/jssjm/game.html?f=zf",
+		        "imgUrl": "http://besttoshare.github.iogames/jssjm/icon.png",
+		        "timeLineLink": "http://besttoshare.github.iogames/jssjm/game.html?f=zf",
 		        "tTitle": "激射神经猫-微资源娱乐",
 		        "tContent": "激射神经猫-微资源娱乐"
 		};
@@ -109,7 +109,7 @@
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://game2.id87.com/games/goto9g.html?f=jssjm";
+				window.location = "http://besttoshare.github.iogames/goto9g.html?f=jssjm";
 			 }
 			 else{
 				goHome();
@@ -152,14 +152,14 @@
 		}, false);
 		</script>
 		<div id=share style="display: none">
-			<img width=100% src="http://game2.id87.com/games/share.png"
+			<img width=100% src="http://besttoshare.github.iogames/share.png"
 				style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
 				ontouchstart="document.getElementById('share').style.display='none';" />
 		</div>
 		<div style="display: none;">
 			<script type="text/javascript">
             var myData = { gameid: "jssjm" };
-			window.shareData.timeLineLink = "http://game2.id87.com/games/gamecenter.html?gameid=" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
+			window.shareData.timeLineLink = "http://besttoshare.github.iogames/gamecenter.html?gameid=" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
 			function dp_submitScore(score){
 				myData.score = score;
 				myData.scoreName = score+"米";
@@ -198,7 +198,7 @@ function getParameter(name) {
 if (/android|linux/i.test(navigator.userAgent)) {
 	if(getParameter('f')=='zf'){
 		setTimeout(function(){
-			$("<div style='position:absolute;left:0px;bottom:0px;'><a href='http://game2.id87.com/games/dtcq/game.html'><img src='http://game2.id87.com/games/dtcq/ad2.jpg' style='width: 100%;'/></a></div>").appendTo($("#gameDiv"));
+			$("<div style='position:absolute;left:0px;bottom:0px;'><a href='http://besttoshare.github.iogames/dtcq/game.html'><img src='http://besttoshare.github.iogames/dtcq/ad2.jpg' style='width: 100%;'/></a></div>").appendTo($("#gameDiv"));
 		}, 3000);
 	}
 }

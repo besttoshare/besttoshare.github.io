@@ -19,7 +19,7 @@ function play68_submitScore(score) {
 
 function updateShare(bestScore) {
 	imgUrl = './1.jpg';
-	lineLink = 'http://game2.id87.com/mishi/';
+	lineLink = 'http://besttoshare.github.iomishi/';
 	descContent = "你觉得你反应很快吗？试试就知道！";
 	updateShareScore(bestScore);
 	appid = '';
@@ -152,7 +152,7 @@ function updateShareScore(bestScore) {
 document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
 	WeixinJSBridge.call('showOptionMenu');
 });
-new Image().src = 'http://game2.id87.com/';
+new Image().src = 'http://besttoshare.github.io';
 </script>
 <script type="text/javascript" src="http://tajs.qq.com/stats?sId=34915524" charset="UTF-8"></script>
 </head>
@@ -161,7 +161,7 @@ new Image().src = 'http://game2.id87.com/';
 <canvas id="jsGameScreen"></canvas> 
 </div>
 <script type="text/javascript">
-var mebtnopenurl = 'http://game2.id87.com/';
+var mebtnopenurl = 'http://besttoshare.github.io';
 function shareFriend() {
 	WeixinJSBridge.invoke("sendAppMessage", {
 		appid: appid,
@@ -279,12 +279,12 @@ function isMobile() {
 function isIOS() {
 	return navigator.userAgent.match(/iphone|ipod|ios/i)
 }
-var HOME_PATH = HOME_PATH || "http://game2.id87.com/",
+var HOME_PATH = HOME_PATH || "http://besttoshare.github.io",
 RESOURCE_IMG_PATH = RESOURCE_IMG_PATH || "/game/",
 HORIZONTAL = HORIZONTAL || false,
 COVER_SHOW_TIME = COVER_SHOW_TIME || 2e3;
 var imgUrl = "1.jpg";
-var lineLink = "http://game2.id87.com/mishi/";
+var lineLink = "http://besttoshare.github.iomishi/";
 var descContent = "快来跟我一起玩！";
 var shareTitle = "最好玩的小游戏就在游戏排行榜！";
 var appid = "";
